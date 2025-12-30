@@ -1,0 +1,2 @@
+# Optimized-Capsule-Manufacturing-Defect-Detection-using-PatchCore
+This project features an optimized implementation of the PatchCore (Roth et al., 2022) algorithm, specifically refined for pharmaceutical quality control. By utilizing a ResNet50 backbone with weighted Layer-2 feature extraction and 320x320 spatial mapping, the system achieves an AUROC score of 0.99 in detecting complex capsule defects.
