@@ -1,6 +1,6 @@
 # Optimized PatchCore for Surface Anomaly Detection in Capsule Manufacturing
 
-[Explore the Capsule Anomaly detection app on the Web 💊](https://plant-disease-prediction-using-deep-learning-cnn-and-keras.streamlit.app/)
+[Explore the Capsule Anomaly detection app on the Web 💊](https://optimized-capsule-manufacturing-defect-detection.streamlit.app/)
 
 <p>
 <img src="./drug capsules.jpg" alt="Home Image" style="width:100%; height:200px;">
@@ -83,7 +83,7 @@ If you want to execute the training phase of the system and testing the memory b
 
 2. Run the cells. The fitted model (memory bank) and the best threshold value for the dataset will be saved as a `tracapsule_patchcore_assets.pt` file.
 
-**Note:** This system uses a frozen ResNet50 backbone for feature extraction. This means no weights are updated, making the "fitting" process computationally efficient. While GPU acceleration speeds up the initial CoreSet generation, the low sampling rate ensures that the resulting memory bank is lightweight enough for real-time CPU execution.
+**Note:** This system uses a frozen ResNet50 backbone for feature extraction. This means no weights are updated, making the "fitting" process computationally efficient. While GPU acceleration speeds up the initial CoreSet generation, the low sampling rate ensures that the resulting memory bank is lightweight enough for real-time CPU execution. Run on [Google Colab](https://colab.research.google.com/drive/1DYMjWw_u4cC5k-TLU6U6UYdUauumLELx?usp=sharing).
 
 ## 🌐 Running the Streamlit App
 To interact with the model using the web interface locally:
