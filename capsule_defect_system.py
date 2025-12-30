@@ -101,29 +101,29 @@ if 'shown_once' not in st.session_state:
 # custom styling for Streamlit Tabs
 st.markdown("""
     <style>
-    /* 1. Make the tab container full width */
+    /* making the tab container full width */
     div[data-baseweb="tab-list"] {
         display: flex;
         width: 100%;
         gap: 0px; 
     }
 
-    /* 2. Style the buttons and increase Font Size */
+    /* 2. styling the buttons */
     button[data-baseweb="tab"] {
         flex: 1; 
-        height: 80px; /* Increased height for larger text */
+        height: 80px;
         background-color: #f0f2f6;
         border-radius: 10px 10px 0px 0px;
     }
 
-    /* 3. Target the text specifically for size and weight */
+    /* targetting the text inside the buttons */
     button[data-baseweb="tab"] p {
         font-size: 1.25rem !important; /* LARGE FONT SIZE */
         font-weight: 800 !important; /* Extra Bold */
         letter-spacing: 1px;
     }
 
-    /* 4. Active Tab Styling */
+    /* styling the active tab */
     button[data-baseweb="tab"][aria-selected="true"] {
         background-color: #1c96c5 !important; 
         border-bottom: 1px solid !important;
