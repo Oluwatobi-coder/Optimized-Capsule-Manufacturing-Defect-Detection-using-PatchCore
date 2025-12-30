@@ -1,6 +1,6 @@
 # Optimized PatchCore for Surface Anomaly Detection in Capsule Manufacturing
 
-[Explore the Capsule Anomaly detection app on the Web 💊](https://plant-disease-prediction-using-deep-learning-cnn-and-keras.streamlit.app/)
+[Explore the Capsule Anomaly detection app on the Web 💊](https://optimized-capsule-manufacturing-defect-detection.streamlit.app/)
 
 <p>
 <img src="./drug capsules.jpg" alt="Home Image" style="width:100%; height:200px;">
