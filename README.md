@@ -7,7 +7,7 @@
 </p>
 
 
-This project implements an optimized version of the PatchCore **(Roth et al., 2022)** anomaly detection framework for pharmaceutical quality control. By utilizing a ResNet50 backbone with weighted Layer-2 feature extraction and 320x320 spatial mapping for detecting complex capsule defects, the system achieves an AUROC score of 0.99 (99%) in detecting complex capsule defects.
+This project implements an optimized version of the PatchCore **(Roth et al., 2022)** anomaly detection algorithm based on the framework provided by [Dr. Mohan](https://github.com/mohan696matlab/mvtec_anomalydetection/blob/main/AD_4_Patch_core.ipynb)  for pharmaceutical quality control. By utilizing a ResNet50 backbone with weighted Layer-2 feature extraction and 320x320 spatial mapping for detecting complex capsule defects, the system achieves an AUROC score of 0.99 (99%) in detecting complex capsule defects.
 
 
 ## 📌 Project Overview
@@ -127,6 +127,10 @@ Contributions are welcome to help improve the detection accuracy or the efficien
 This project is built upon the following research:
 
 Roth, K., Pemula, L., Zepeda, J., Bernhard, S., & Gehler, P. (2022). Towards Total Recall in Industrial Anomaly Detection. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). [Read Paper](https://arxiv.org/abs/2106.08265)
+
+Mohan696matlab. (2025). mvtec_anomalydetection/AD_4_Patch_core.ipynb at main · mohan696matlab/mvtec_anomalydetection. GitHub.
+https://github.com/mohan696matlab/mvtec_anomalydetection/blob/main/AD_4_Patch_core.ipynb
+
 
 ## 📜 License
 
