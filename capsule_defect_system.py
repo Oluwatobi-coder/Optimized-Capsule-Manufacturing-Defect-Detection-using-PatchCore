@@ -137,9 +137,6 @@ st.markdown("""
 
 # writing the main title and description
 st.title("💊 Optimized PatchCore for Surface Anomaly Detection in Capsule Manufacturing")
-st.markdown("[Link to the Source Code on GitHub](https://github.com/Oluwatobi-coder/Optimized-Capsule-Manufacturing-Defect-Detection-using-PatchCore-)")
-st.markdown("**Author**: Bello Oluwatobi")
-st.markdown("**Last Updated on**: 29th December, 2025")
 st.markdown("""
             This project implements an optimized **PatchCore model** to detect manufacturing defects in drug capsules. By using a **ResNet50 backbone** with **weighted Layer-2** feature extraction and **high-resolution** spatial mapping, the system achieves a **99% AUROC** score in identifying capsule defects.
             """)
